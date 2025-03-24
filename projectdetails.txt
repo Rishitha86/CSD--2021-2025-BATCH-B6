@@ -1,0 +1,99 @@
+tkinter --frontend kosam use cheesy package
+matplotlib--graph display kosam use cheesy library
+sklearn--train,test data division kosam,accuracy calci kosam,ml alg usage kosam, tf if vectorization techniques ..such type preprocessing techniqes implementation kosam  sklrean use avthundhi
+panda--data reading,data precessinf kosam
+numpy--array format lo store cheskundeki
+
+pickel---stored pickle files to be laoded
+nltk--to data sentences and to remove unnceeecsary,stop words,punctuations
+cleanpost--to clean data in prepocessing step
+every button u click in output has method in source code
+
+uploaddataset:
+load ddataset by user
+read through pandas
+diplay graphs using labels lines
+
+preprocess
+
+files to read to store using attributes through list like data is stored in array format
+tf..
+sentence to numerical format ..divide into x and y 
+
+logistic:
+Works well when data is linearly separable.
+ Simple and efficient for large datasets.
+Logistic Regression is a probabilistic classifier used for binary and multi-class classification.
+It applies the sigmoid function to predict probabilities and assigns the class with the highest probability.
+
+Linear Support Vector Classifier (SVC):
+finds a hyperplane that best separates data points.
+In this case, LinearSVC() uses a linear decision boundary to classify data.
+✔ Works well in high-dimensional spaces (text data).
+✔ Effective for small and medium-sized datasets.
+
+ridge classifer:
+A classifier is a model that decides which category something belongs to.
+For example, if we give a classifier some text, it might predict:
+
+Positive review 😊
+Negative review 😡
+Neutral review 😐
+The Ridge Classifier helps make this decision more stable.
+
+2️⃣ What Does Ridge Classifier Do?
+It’s like a normal classifier but with an extra feature called L2 regularization.
+
+👉 What’s the problem?
+
+Sometimes, a machine learning model relies too much on certain words or features.
+For example, if the model sees the word "good", it might immediately predict a positive review, even if the full sentence is:
+"This medicine is not good" ❌ (which is actually negative).
+👉 How does Ridge fix this?
+
+Ridge adds a small penalty when a feature (like the word "good") has too much influence.
+This makes the model more balanced and less sensitive to noise.
+
+multinomial naïve bayes:
+
+
+When a new review is given, the model analyzes the words and predicts the most likely rating based on past data.
+Example:
+If a review contains words like "excellent," "effective," "helpful", the model is more likely to classify it as a high rating (4-5 stars).
+If it contains words like "bad," "side effects," "not working", it might be classified as a low rating (1-2 stars).
+
+
+
+SGDClassifier:
+
+SGDClassifier (Stochastic Gradient Descent Classifier) is a type of machine learning model that learns from data step by step, instead of looking at the entire dataset at once.
+
+How It Works in Simple Words
+Learns in Small Steps
+
+Instead of analyzing the whole dataset at once (which can be slow), it learns from one review at a time and updates itself as it goes.
+This makes it faster and more efficient, especially when there is a large amount of text data.
+Improves Over Time
+
+With each new review, it slightly adjusts its knowledge to improve accuracy.
+This is useful for online learning, where the model keeps improving as new data comes in.
+Finds the Best Decision Boundary
+
+Just like a teacher grading papers, it doesn’t memorize everything but instead learns patterns from the reviews to make predictions.
+Example: If many reviews say "this drug is amazing", the model will recognize that “amazing” is a strong positive word and will classify similar reviews as positive.
+Why It’s Used in Your Project
+✅ Fast for large datasets – Can handle thousands of reviews efficiently.
+✅ Learns continuously – Can update itself as new reviews are added.
+✅ Good for text classification – Works well with reviews that change over time.
+
+
+mlp:
+its just neural networks ..consists of laywrs of neourons..input,hiddel,output layers will be there..uses bakpropogation for its mistakes and it consists of relu ,sigmoid functions
+
+testing:
+
+Accuracy – "Overall Correct Predictions"
+Precision – "How Many Positives Were Actually Correct?"
+Recall – "Did We Find All the Positives?"
+F1-Score – "Balancing Precision & Recall"
+
